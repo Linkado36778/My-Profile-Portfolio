@@ -8,6 +8,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Spotify Overlay Music",
+    description: "An Overlay that shows the lyrics of the song being played on Spotify.",
+    technologies: ["Python", "React", "Typescript", "Vite", "Electron"],
+    githubUrl: "https://github.com/Linkado36778/Spotify_Overlay_Music"
+  },
+  {
     title: "Raspberry Pi HC-SR04 Driver",
     description: "A Linux kernel module driver for the HC-SR04 ultrasonic distance sensor, developed for Raspberry Pi.",
     technologies: ["C", "Linux Kernel", "Embedded Systems", "Raspberry Pi"],
@@ -30,11 +36,5 @@ export const projects: Project[] = [
     description: "A wearable device meant to monitor heart rate and detect anomalies, sending data to a connected application.",
     technologies: ["C++", "Embedded Systems", "Python", "Signal Processing", "Arduino", "Kivy"],
     githubUrl: "https://github.com/And5reas/MoreLifeProjectt"
-  },
-  {
-    title: "Spotify Overlay Music",
-    description: "An Overlay that shows the lyrics of the song being played on Spotify.",
-    technologies: ["Python", "React", "Typescript", "Vite", "Electron"],
-    githubUrl: "https://github.com/Linkado36778/Spotify_Overlay_Music"
-  },
+  }
 ];
