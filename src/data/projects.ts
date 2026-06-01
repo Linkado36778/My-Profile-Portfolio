@@ -8,7 +8,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "ERP Core Auth (Conexus)",
+    title: "ERP Core Auth for Conexus",
     description: "A core authentication engine for an ERP system, designed to manage user authentication and authorization across multiple services.",
     technologies: ["Docker", "Node.js", "OpenAPI", "React", "Typescript", "Vite", "JWT", "OAuth2.0", "RBAC"],
     githubUrl: "https://github.com/GestaoProjetos2026/core-engine"
