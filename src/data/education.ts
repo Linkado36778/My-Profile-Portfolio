@@ -12,7 +12,7 @@ export const education: Education[] = [
     degree: "Bachelor of Science in Computer Engineering",
     institution: "Universidade Santa Cecília - Unisanta",
     period: "2022 - Now",
-    description: "Computer Engineering - 9th Semester"
+    description: "Computer Engineering - 10th Semester"
   },
   {
     id: "2",
@@ -20,5 +20,12 @@ export const education: Education[] = [
     institution: "Cultura Inglesa",
     period: "2017 - 2024",
     description: "English Language course - C1 Advanced (IPTA LEVEL)"
+  },
+  {
+    id: "3",
+    degree: "Google AI Essentials Certificate",
+    institution: "Google",
+    period: "2026",
+    description: "Google AI Essentials Certificate"
   }
 ];
