@@ -8,6 +8,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Smart Balance",
+    description: "Backend development and prototyping of a food weighing, tracking, and nutritional analysis system with IoT integration and image recognition, as part of a university conclusion project.",
+    technologies: ["C++", "Embedded Systems", "Python", "Computer Vision", "AI", "Image Recognition", "LVGL"],
+    githubUrl: "https://github.com/Linkado36778/Smart_Balance_Backend"
+  },
+  {
     title: "ERP Core Auth for Conexus",
     description: "A core authentication engine for an ERP system, designed to manage user authentication and authorization across multiple services.",
     technologies: ["Docker", "Node.js", "OpenAPI", "React", "Typescript", "Vite", "JWT", "OAuth2.0", "RBAC"],
